@@ -1,0 +1,275 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 2em;
+    border: 1px solid black;
+}
+
+nav {
+    height: 42px;
+    width: 100%;
+    position: fixed;
+    border-bottom: 1px solid lightgray;
+    background: white;
+}
+
+.navcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1600px;
+    height: inherit;
+    margin: auto;
+    box-sizing: content-box;
+}
+
+.navcontainer>* {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.righthead {
+    justify-content: flex-end;
+}
+
+.centerhead {
+    justify-content: center;
+}
+
+.lefthead>button:hover {
+    background-color: lightgray;
+}
+
+.leftbtn {
+    margin-right: 1em;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    border-radius: 3px;
+    cursor: pointer;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid #c03b3b;
+    color: #333;
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 500;
+    padding: 11px 12px 8px;
+    text-transform: uppercase;
+}
+
+.lefthead>button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#space .space1 {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn {
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    vertical-align: middle;
+    background-color: #567b95;
+    border: 1px solid #326891;
+    color: #fff;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+section {
+    background-color: #8dc3c5;
+    border: 1px solid black;
+    margin: auto 0;
+    padding-top: 2em;
+    display: block;
+}
+
+article {
+    border: 2px solid red;
+}
+
+.one {
+    border: 2px solid red;
+}
+
+footer {
+    background-color: #fff;
+}
+
+.f1,
+.f2,
+.f3 {
+    border: 1px solid black;
+}
+
+.f0 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f0img {
+    margin-left: 12px;
+    height: 1.3em;
+    cursor: pointer;
+}
+
+.homepage {
+    margin: 12px;
+    padding: 0;
+    font-size: 0.7em;
+    color: #333;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    text-transform: capitalize;
+    text-decoration-line: none;
+}
+
+.f1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    min-width: 600px;
+
+}
+
+h3 {
+    color: rgb(51, 51, 51);
+    font-size: 13px;
+    font-weight: 700;
+    font-family: nyt-franklin;
+    height: 25px;
+    line-height: 15px;
+    text-transform: uppercase;
+    width: 150px;
+    margin: 0px;
+}
+
+.f1col61 {
+    margin-left: 10px;
+}
+
+.f2 {
+    padding-bottom: 2em;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.f3 {
+    height: 2em;
+    width: 100%;
+    position: fixed;
+    background: white;
+    z-index: 999;
+    bottom: 0;
+    border-top: 1px solid black;
+    text-align: center;
+    vertical-align: baseline;
+    font-size: 0.68em;
+}
+
+.f3right>a {
+    position: absolute;
+    top: 12px;
+    right: 5em;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #333;
+    font-family: nyt-franklin;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.f3center {
+    width: 50%;
+    height: auto;
+    margin: 0.6em auto;
+    color: #333;
+    font-family: nyt-franklin;
+}
+
+
+
+.f1col1,
+.f1col2,
+.f1col3,
+.f1col4,
+.f1col5,
+.f1col6 {
+    display: flex;
+    flex-direction: column;
+}
+
+.f1col1>a,
+.f1col2>a,
+.f1col3>a,
+.f1col4>a,
+.f1col5>a,
+.f1col6>a {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-family: nyt-franklin;
+    text-transform: capitalize;
+    width: 150px;
+    font-size: 14px;
+    font-weight: 500;
+    height: 23px;
+    line-height: 16px;
+    text-decoration: none
+}
+
+.f1col1>a:hover,
+.f1col2>a:hover,
+.f1col3>a:hover,
+.f1col4>a:hover,
+.f1col5>a:hover,
+.f1col6>a:hover {
+    text-decoration: underline;
+}
+
+.flinks2 {
+    list-style-type: none;
+    border: none;
+    margin: 12px 0;
+    padding: 0;
+    font-size: 11px;
+    text-transform: capitalize;
+
+}
+
+.flinks2 li {
+    display: inline-block;
+    font-size: 1em;
+    padding-right: 0.90em;
+    margin: 0 0 15px;
+    color: #777777;
+}
+
+.b2 {
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    text-decoration: none;
+}
+
+.b2:hover {
+    text-decoration: underline;
+    background: none;
+    color: #777777;
+}
