@@ -91,12 +91,12 @@ nav {
 }
 
 section {
-    background-color: #8dc3c5;
+    background-color: #fff;
     border: 1px solid black;
     margin: auto 0;
     padding-top: 2em;
     display: block;
-}
+   }
 
 article {
     border: 2px solid red;
@@ -273,3 +273,90 @@ h3 {
     background: none;
     color: #777777;
 }
+div {
+    border: 2px solid blueviolet;
+}
+
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    font-family: nyt-cheltenham, Georgia, 'Times New Roman', Times, serif, arial, sans-serif;
+}
+.titul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image1 > img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+figcaption {
+font-size: 15px;
+font-family: nyt-imperial;
+color: #666;
+float: left;
+}
+.introd {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 20px;
+    color: #121212;
+    font-family: nyt-franklin;
+    color: #333;
+    font-size: 15px;
+    font-weight: 700;
+    
+ }
+ .social {
+     display: flex;
+     flex-direction: row;
+     list-style: none;
+ }
+ .round {
+    padding-right: 10px;
+ }
+ .not-round {
+    padding-left: 10px;
+ }
+ .rou {
+    position:relative;
+    padding-right: 10px;
+ }
+
+ .fa-2x {
+    position: absolute;
+    top:0;
+   
+ }
+ .comment-count {
+    position: absolute;
+    top:0;
+ }
+ .fab,
+ .fas  {
+ background-color: #EEEEEE;
+ border-radius: 50px;
+ border: 1px solid #EEEEEE;
+ padding: 5px;
+ color: #333333; 
+
+ }
+ 
+ .fab:hover,
+ .fas:hover {
+     background-color: #ffffff;
+ }
+
+ .intro-0:hover {
+     text-decoration: none;
+ }
+ .intro-1 {
+     color: #333333;
+ }
